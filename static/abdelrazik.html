@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sama Abdelrazik | Bio</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .container{
+            max-width: 900px;
+            width: 100%;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 25px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        }
+
+        .profile{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .avatar{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #38bdf8, #8b5cf6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 55px;
+            font-weight: bold;
+            box-shadow: 0 0 25px rgba(139,92,246,0.6);
+        }
+
+        .intro h1{
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .intro h3{
+            color: #94a3b8;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+
+        .intro p{
+            line-height: 1.7;
+            color: #d1d5db;
+        }
+
+        .section{
+            margin-top: 35px;
+        }
+
+        .section h2{
+            color: #38bdf8;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        .skills{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill{
+            background: rgba(56,189,248,0.15);
+            border: 1px solid rgba(56,189,248,0.3);
+            padding: 10px 18px;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+
+        .skill:hover{
+            transform: scale(1.05);
+            background: rgba(139,92,246,0.25);
+        }
+
+        .quote{
+            margin-top: 40px;
+            padding: 25px;
+            border-left: 4px solid #38bdf8;
+            background: rgba(255,255,255,0.04);
+            border-radius: 12px;
+            font-style: italic;
+            color: #cbd5e1;
+        }
+
+        footer{
+            margin-top: 40px;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        @media(max-width:700px){
+            .intro h1{
+                font-size: 2.2rem;
+            }
+
+            .profile{
+                justify-content: center;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="profile">
+
+            <div class="avatar">
+                S
+            </div>
+
+            <div class="intro">
+                <h1>Sama Abdelrazik</h1>
+                <h3>Computer Engineering Student</h3>
+
+                <p>
+                    Passionate about technology, software development, and solving
+                    real-world problems through code. Sama is a creative and curious
+                    computer engineering student who enjoys building projects,
+                    learning modern technologies, and exploring how software and
+                    hardware interact to shape the future.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+
+            <p style="line-height: 1.8; color:#d1d5db;">
+                I enjoy programming, designing systems, and constantly improving
+                my problem-solving skills. Whether it is writing C++ applications,
+                experimenting with web technologies, or understanding computer
+                architecture, I love turning ideas into working solutions.
+                <br><br>
+                Beyond academics, I believe creativity and persistence are what
+                make great engineers. I am always looking for opportunities to
+                learn, collaborate, and create meaningful projects.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Skills & Interests</h2>
+
+            <div class="skills">
+                <div class="skill">C++</div>
+                <div class="skill">HTML & CSS</div>
+                <div class="skill">Problem Solving</div>
+                <div class="skill">Algorithms</div>
+                <div class="skill">Software Development</div>
+                <div class="skill">Web Development</div>
+                <div class="skill">Computer Engineering</div>
+                <div class="skill">UI Design</div>
+            </div>
+        </div>
+
+        <div class="quote">
+            "Engineering is not only about building systems —
+            it is about building ideas that can change lives."
+        </div>
+
+        <footer>
+            © 2026 Sama Abdelrazik | Built with passion and creativity
+        </footer>
+
+    </div>
+
+</body>
+</html>
